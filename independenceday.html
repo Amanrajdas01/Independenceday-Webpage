@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Independence Day</title>
+    <style>
+        body {
+            background: linear-gradient(to left, orange, white, green);
+            animation: bg 5s infinite;
+
+        }
+
+        @keyframes bg {
+            0% {
+                background: linear-gradient(orange, white, green);
+            }
+
+            50% {
+                background: linear-gradient(to left, orange, white, green);
+            }
+
+            100% {
+                background: linear-gradient(to right, orange, white, green);
+            }
+        }
+
+        div {
+            font-size: 4.5em;
+            padding: 10px;
+            text-align: center;
+            color: orange;
+            text-shadow: 15px 10px 15px green;
+            font-family: century gothic;
+        }
+
+        .happy {
+            animation: happy 5s infinite;
+            position: relative;
+        }
+
+        @keyframes happy {
+            0% {
+                top: 0px;
+                color: white;
+                text-shadow: 2px 3px 1px orange
+            }
+
+            ;
+
+            25% {
+                top: 25px;
+                color: green;
+                text-shadow: 2px 2px 0px white
+            }
+
+            ;
+
+            50% {
+                top: 50px;
+                color: orange;
+                text-shadow: 1px 2px 1px black
+            }
+
+            ;
+
+            75% {
+                top: 25px;
+                color: white;
+                text-shadow: 2px 3px 2px green
+            }
+
+            ;
+
+            100% {
+                top: 0px;
+                color: green;
+                text-shadow: 2px 3px 2px orange
+            }
+
+            ;
+        }
+
+        h4 {
+            font-size: 3em;
+            font-family: century;
+            color: #e5ff00;
+            animation: text 5s infinite;
+            text-align: center;
+        }
+
+        @keyframes text {
+            0% {
+                text-shadow: 2px 2px 3px orange;
+                background-color: green;
+            }
+
+            50% {
+                color: white;
+            }
+
+            100% {
+                text-shadow: 2px 2px 3px green;
+                background-color: white;
+            }
+        }
+
+        .quote {
+            font-size: xx-large;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="happy">Happy</div>
+    <div class="happy">75th Independence</div>
+    <div class="happy">Day</div>
+    <h4>LNCTU</h4>
+    <h6 class="quote">आन देश की शान देश की, देश की हम संतान हैं,
+        तीन रंगों से रंगा तिरंगा, अपनी ये पहचान है...
+        हैप्‍पी इंडिपेंडेंस डे 2022</h6>
+    <h6 class="quote">भारत माता तेरी गाथा सबसे ऊँची तेरी शान, तेरे आगे शीश झुकाएं दें तुझको हम सब प्रणाम!</h6>
+</body>
+
+</html>
